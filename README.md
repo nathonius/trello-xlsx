@@ -2,6 +2,12 @@ Trello doesn't allow you to export your board to CSV or XSLX if you don't pay fo
 
 It spits out a XLSX workbook where each sheet is one of the lists on the given Trello board. The output is pretty ugly, but it's a starting point.
 
+### Requirements
+Python 3.x
+
+[XlsxWriter](https://pypi.python.org/pypi/XlsxWriter)  
+`pip install XlsxWriter`
+
 ### Usage
 Basic usage:  
 `python3 trello-xlsx.py infile.json outfile.xlsx`
