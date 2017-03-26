@@ -1,6 +1,6 @@
 Trello doesn't allow you to export your board to CSV or XSLX if you don't pay for their "business class" model - only JSON. I think that's pretty lame, so I wrote this little python script to convert the JSON to an XLSX file.
 
-It spits out a XLSX workbook where each sheet is one of the lists on the given Trello board.
+It spits out a XLSX workbook where each sheet is one of the lists on the given Trello board. The output is pretty ugly, but it's a starting point.
 
 ### Usage
 Basic usage:  
@@ -17,3 +17,6 @@ Advanced usage:
 | -l | --labels | By default, the script takes only the names of the labels for each card. With this option, it takes all fields. |
 | -i | --info | Add two rows to each sheet with info about the list. |
 | N/A | --add-empty | By default, empty lists are ignored. With this flag, they are included. |
+
+### Future Work
+I'm working on a number of default filters to make the output prettier by excluding unnecessary columns (IDs etc.) and ordering the columns consistently.
