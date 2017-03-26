@@ -1,3 +1,6 @@
+### NOTE
+I spent two hours writing this only to find out there's a Chrome extension that already does it, and better. See here: [Export for Trello](https://chrome.google.com/webstore/detail/export-for-trello/nhdelomnagopgaealggpgojkhcafhnin?hl=en-US)
+
 Trello doesn't allow you to export your board to CSV or XSLX if you don't pay for their "business class" model - only JSON. I think that's pretty lame, so I wrote this little python script to convert the JSON to an XLSX file.
 
 It spits out a XLSX workbook where each sheet is one of the lists on the given Trello board. The output is pretty ugly, but it's a starting point.
